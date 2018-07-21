@@ -18,3 +18,12 @@ scrapy runspider hello_spider.py
 scrapy startproject courses
 ```
 
+## How to create a spider within a project
+```bash
+scrapy genspider coursera 'coursera.org'
+```
+
+## How to run a spider within a project
+```bash
+scrapy crawl coursera
+```
