@@ -39,3 +39,8 @@ for div in divs:
     div.xpath('.//h3/a').extract_first()
 ```
 
+## To save content in a file
+```bash
+scrapy crawl udacity -o udacity_courses.json
+```
+
